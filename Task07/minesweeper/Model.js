@@ -275,6 +275,7 @@ async function writeTurnInfo(gameId, gameStatus, turnNumber, x, y, replayMode)
     if (replayMode) {
         return;
     }
+	
     let coordinates = x.toString() + "," + y.toString();
     try {
         await db.add('turnsInfo', {gameId, turnNumber, coordinates, gameStatus});
