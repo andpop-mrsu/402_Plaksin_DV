@@ -1,0 +1,22 @@
+{
+    "name": "plaksindv/task01",
+    "authors": [
+        {
+            "name": "Dmitriy Plaksin",
+            "email": "dmitriy.plaksin1@yandex.ru"
+        }
+    ],
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Test.php"
+        ]
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
